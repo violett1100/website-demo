@@ -1,48 +1,853 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <title>Website-demo by violett1100</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Website-demo</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/violett1100/website-demo" class="btn">View on GitHub</a>
-      <a href="https://github.com/violett1100/website-demo/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/violett1100/website-demo/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tiffany T1 珠寶首飾系列</title>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/defunkt/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/defunkt">@defunkt</a>), PJ Hyett (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/pjhyett/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/pjhyett">@pjhyett</a>), and Tom Preston-Werner (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/mojombo/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mojombo">@mojombo</a>) founded GitHub.</p>
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./vendor/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/violett1100/website-demo">Website-demo</a> is maintained by <a href="https://github.com/violett1100">violett1100</a>.</span>
+<body>
+    <div class="wrapper">
+        <!-- start header -->
+        <header class="header">
+            <div class="navbar animate__animated animate__slideInDown">
+                <a href="#!" class="nav-toggle mob-show">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="navbar-icon-group mob-hide">
+                    <div class="navbar-icon-left">
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-search.svg)"></a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-location.svg)"></a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-bell.svg)"></a>
+                        </div>
+                    </div>
+                    <div class="navbar-icon-right">
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-member.svg)"></a>
+                            <a href="#!" class="text">我的帳戶</a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-shopping.svg)"></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#!" class="brand"></a>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
 
-    </section>
 
-  
-  </body>
+                <div class="dropdown-area mob-hide">
+                    <div class="main-nav">
+                        <nav class="nav-item"><a href="#!" id="nav-1" class="nav-link">珠寶</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-2" class="nav-link">愛和訂婚</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-3" class="nav-link">腕錶</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-4" class="nav-link">家居用品與配飾</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-5" class="nav-link">香氛</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-6" class="nav-link">男士</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-7" class="nav-link">禮品</a></nav>
+                    </div>
+                    <div class="sub-navbar">
+                        <div class="sub-nav nav-1 dropdown">
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">瀏覽所有珠寶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">項鏈與鏈墜</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">手鍊</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">耳環</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">戒指</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">吊飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">胸針</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">鑽石珠寶首飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">金首飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">玫瑰金首飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">銀首飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">珍珠首飾</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">新款珠寶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">高級珠寶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">男士珠寶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">最熱賣珠寶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">珍珠首飾</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">瀏覽全部系列</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany T</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Paper Flowers</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Hard Wear</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Keys</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Return to Tiffany</a></div>
+                            </div>
+                        </div>
+                        <div class="sub-nav nav-2 dropdown">
+                            <div class="col-md-6">
+                                <div class="sub-nav-image"
+                                    style=" background-image: url(media/images/brilliant\ diamonds_flyoutasset.jpeg)">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">訂情套裝</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">訂婚戒指</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">鑽石指南</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">終生服務</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">鑽石原產地</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">聯絡鑽石專家</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">結婚</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">男士結婚戒指</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">女士結婚戒指</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">結婚戒指套裝</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany True</a></div>
+                            </div>
+                        </div>
+                        <div class="sub-nav nav-3 dropdown">
+                            <div class="col-md-6">
+                                <div class="sub-nav-image"
+                                    style=" background-image: url(media/images/TWatchLimited_1168x608_NavFlyout_Desktop.jpeg)">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">瀏覽所有腕錶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">男士</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">女士</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Metro 女裝腕錶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany CT60 腕錶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany East West 腕錶</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Cocktail 腕錶</a></div>
+                            </div>
+                        </div>
+                        <div class="sub-nav nav-4 dropdown">
+                            <div class="col-md-6">
+                                <div class="sub-nav-image"
+                                    style=" background-image: url(media/images/HA_NavFlyout_2Column_584x304.jpeg)">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">餐具及酒具</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">書桌及裝飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">遊戲與新意</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">嬰兒</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">男士配飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">女士配飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">皮製品</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">眼鏡</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">鑰匙圈</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">寵物</a></div>
+                            </div>
+                        </div>
+                        <div class="sub-nav nav-5 dropdown">
+                            <div class="col-md-9">
+                                <div class="sub-nav-image"
+                                    style=" background-image: url(media/images/Fragrance_NavFlyout_3Column_1760x608_V2.jpeg)">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Signature</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Sheer</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Intense</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany & Love</a></div>
+                            </div>
+                        </div>
+                        <div class="sub-nav nav-6 dropdown">
+                            <div class="col-md-6">
+                                <div class="sub-nav-image"
+                                    style=" background-image: url(media/images/Mens_NavFlyout_2Column_584x304.jpeg)">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">項鏈與鏈墜</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">手鏈</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">戒指</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">配飾</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">腕錶</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">酒具及器皿</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">遊戲與新意</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany T</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany 1837® Makers</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Diamond Point</a></div>
+                            </div>
+                        </div>
+                        <div class="sub-nav nav-7 dropdown">
+                            <div class="col-md-6">
+                                <div class="sub-nav-image"
+                                    style=" background-image: url(media/images/FathersDay_Flyout_Desktop.jpeg)"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">父親節禮物靈感</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">挑選畢業禮物</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">她</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">他</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">嬰兒</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">情侶</a></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">最夢寐以求</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">可雕刻禮品及個人化禮品理念</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Tiffany Blue</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">Elsa Peretti® 設計</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">香氛</a></div>
+                                <div class="sub-nav-item"><a href="#!" class="nav-link">家居</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown-bg dropdown"></div>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- start main -->
+        <!-- polygon section -->
+
+        <div class="hero jumbotron">
+            <div class="container">
+                <div class="section text-area">
+                    <h1 class="big-title">隆重推出 Tiffany T1</h1>
+                    <h3 class="subtitle">Tiffany T1 將 Tiffany T 系列大膽前衛地重新塑造，<br>象徵Tiffany及個人與自身的連繫</h3>
+                </div>
+            </div>
+            <div class="polygon" style="background-image: url(media/images/T1_ContentPg_Craftmanship.jpg)"></div>
+            <div class="decoration"></div>
+        </div>
+
+        <!-- two square -->
+        <div class="hero">
+            <div class="container">
+                <div class="text-area text-center section">
+                    <div class="text-area-inline">
+                        <h3 class="subtitle">「寶石與寶石之間互相嵌套，呈現出蜂巢圖案。
+                            <br>這樣可減少金屬的數量而用上較大顆的鑽石，從而展現更璀璨光芒。」
+                        </h3>
+                        <p class="text">—Reed Krakoff，藝術總監</p>
+                    </div>
+                </div>
+                <div class="section row sq-1">
+                    <div class="col-md-4">
+                        <div class="text-area text-center text-udl">
+                            <div class="title">煥然一新的設計</div>
+                            <div class="text">Tiffany T1 象徵著
+                                <br>勇氣、能量與樂觀，
+                                <br>就如同戴上它的女士那樣。</div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="image-sq" style="background-image: url(media/images/T1_ContentPg_FWMH.jpg)">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hero-trans">
+                    <div class="section row sq-2">
+                        <div class="col-md-6 bg-white">
+                            <div class="image-sq" style="background-image: url(media/images/T1_ContentPg_FWMH3.jpg)">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-area text-center text-udl">
+                                <div class="title">手工鑲嵌鑽石</div>
+                                <div class="text">Tiffany 工匠精心地以手工鑲嵌每顆鑽石，
+                                    <br>呈現出複雜的蜂巢圖案，
+                                    <br>展示出驚人的光芒、質感及立體感。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="hero polygon-qua" style="background-image: url(media/images/T1_PDP_Hero.jpg)"></div>
+        <div class="decoration-qua"></div>
+
+        <!-- carousel -->
+        <div class="hero">
+            <div class="container">
+                <div class="text-area text-center">
+                    <div class="text-area-inline">
+                        <div class="title">大膽前衛的藝術</div>
+                        <div class="text">全新的 Tiffany T1 設計將我們標誌性的「T」字圖形<br class="mob-show">透過與眾不同的斜邊重新塑造，
+                            <br>以 18K 玫瑰金及鑽石製成，綻放極致光華。</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="carousel-image">
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-67792823_1008957_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-68169712_1010247_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-68315751_1008562_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-67795253_1010336_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-67792823_1008957_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-68169712_1010247_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-68315751_1008562_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/tiffany-tt1-67795253_1010336_ED_M.jpg);">
+                                <div class="icon"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-text">
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 寬版鑽石鉸鍊手鐲<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 寬版鑽石戒指<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 窄版鑽石鉸鍊手鐲<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 窄版鑽石戒指<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 寬版鑽石鉸鍊手鐲<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 寬版鑽石戒指<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 窄版鑽石鉸鍊手鐲<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items">
+                            <a href="#!" class="text-area text-center">
+                                <div class="text text-area-inline">
+                                    T1 窄版鑽石戒指<span class="text-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- polygon section -->
+        <div class="hero jumbotron second">
+            <div class="container">
+                <div class="text-area mob-show">
+                    <div class="text-area-inline text-center">
+                        <h1 class="title">璀璨奪目</h1>
+                        <h3 class="text">每件 Tiffany T1 作品都經由 Tiffany 的
+                            <br>工匠大師單獨鑄造並採用手工拋光。</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="polygon polygon-second" style="background-image: url(media/images/T1_ContentPg_Hero.jpg)">
+                <div class="container">
+                    <div class="text-area mob-hide">
+                        <div class="text-area-inline text-center">
+                            <h1 class="title">璀璨奪目</h1>
+                            <h3 class="text">每件 Tiffany T1 作品都經由 Tiffany 的
+                                <br>工匠大師單獨鑄造並採用手工拋光。</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="decoration"></div>
+        </div>
+
+        <!-- rwo rectangle -->
+        <div class="hero">
+            <div class="container section">
+                <div class="text-area text-center">
+                    <div class="text-area-inline">
+                        <h3 class="subtitle">「目標是將『T』字圖形以醒目大膽的符號重新演繹，<br class="mob-show">令人感到非常時尚。」</h3>
+                        <p class="text">—Reed Krakoff，藝術總監</p>
+                    </div>
+                </div>
+                <div class="section row">
+                    <div class="col-md-7">
+                        <div class="image-rec" style="background-image: url(media/images/tiffany-t1-lg.png)">
+                        </div>
+                    </div>
+                    <div class="col-md-5 rec-2">
+                        <div class="text-area text-center">
+                            <div class="text-area-inline">
+                                <div class="title">獨特的風格</div>
+                                <div class="text">設計前衛而時尚，
+                                    <br>頌揚個人風格的各種可能性。</div>
+                            </div>
+                        </div>
+                        <div class="image-rec" style="background-image: url(media/images/tiffany-t1-sm.png)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- video section -->
+        <div class="hero video">
+            <div class="container">
+                <div class="text-area text-center">
+                    <div class="text-area-inline">
+                        <div class="subtitle">標誌性的 Tiffany「T」字圖形採用了
+                            <br>以18K 玫瑰金形成的斜邊設計，玩味比例, 引人注目。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <iframe width="100%" height="720" src="https://www.youtube.com/embed/cHLu3A1GzwM" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- more tiffany -->
+        <div class="hero">
+            <div class="container">
+                <div class="text-area text-center">
+                    <div class="text-area-inline">
+                        <div class="title">更多 Tiffany T</div>
+                        <div class="text">探索更多有關此讓人夢寐以求系列的資訊。</div>
+                    </div>
+                </div>
+
+
+                <div class="section">
+                    <div class="carousel-image-T">
+                        <div class="carousel-items card">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/T1_BrowseGrid_Hero_Mobile-1.jpg)">
+                                <div class="mask">
+                                    <div class="text">瀏覽所有 Tiffany T <span class="text-arrow"></span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items card">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/T1_2x2MktgTile_Model1.jpg)">
+                                <div class="mask">
+                                    <div class="text">立即瀏覽<span class="text-arrow"></span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-items card">
+                            <a href="#!" class="image-sq"
+                                style="background-image: url(media/images/T1_2x2MktgTile_Craftmanship.jpg)">
+                                <div class="mask">
+                                    <div class="text">觀賞紅地毯上的 Tiffany T1 <span class="text-arrow"></span></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-text-T">
+                        <div class="carousel-items">
+                            <div class="text-area text-center">
+                                <div class="subtitle">Time for T (T的時光)</div>
+                            </div>
+                        </div>
+                        <div class="carousel-items">
+                            <div class="text-area text-center">
+                                <div class="subtitle">新款珠寶首飾</div>
+                            </div>
+                        </div>
+                        <div class="carousel-items">
+                            <div class="text-area text-center">
+                                <div class="subtitle">精緻工藝</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end main -->
+
+        <!-- start footer -->
+        <footer class="footer">
+            <div class="navbar">
+                <div class="navbar-icon-group">
+                    <div class="navbar-icon-left">
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/footer-icon-fb.svg)"></a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon" style="background-image: url(media/icons/footer-icon-ig.svg)"></a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon"
+                                style="background-image: url(media/icons/footer-icon-youtube.svg)"></a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon"
+                                style="background-image: url(media/icons/footer-icon-twitter.svg)"></a>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon"
+                                style="background-image: url(media/icons/footer-icon-pinterest.svg)"></a>
+                        </div>
+                    </div>
+                    <div class="navbar-icon-right">
+                        <div class="navbar-icon">
+                            <a href="#!" class="icon"
+                                style="background-image: url(media/icons/footer-icon-globe.svg)"></a>
+                            <a href="#!" class="text">語言切換</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section footer-flex">
+                <div class="footer-flex-item hide">
+                    <div class="subtitile text-area-inline">客戶服務</div>
+                    <div class="flex hide">
+                        <div class="flex-item hide">
+                            <nav class="nav-item"><a href="#!" class="nav-link">聯絡我們</a></nav>
+                            <nav class="nav-item"><a href="#!" class="nav-link">常見問題解答</a></nav>
+                        </div>
+                        <div class="flex-item hide">
+                            <nav class="nav-item"><a href="#!" class="nav-link">預約鑽石諮詢服務</a></nav>
+                            <nav class="nav-item"><a href="#!" class="nav-link">產品目錄</a></nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-flex-item hide">
+                    <div class="subtitile text-area-inline">我們公司</div>
+                    <div class="flex hide">
+                        <div class="flex-item hide">
+                            <nav class="nav-item"><a href="#!" class="nav-link">Tiffany 的世界</a></nav>
+                            <nav class="nav-item"><a href="#!" class="nav-link">可持續發展</a></nav>
+                            <nav class="nav-item"><a href="#!" class="nav-link">投資者</a></nav>
+                        </div>
+                        <div class="flex-item hide">
+                            <nav class="nav-item"><a href="#!" class="nav-link">網站政策</a></nav>
+                            <nav class="nav-item"><a href="#!" class="nav-link">網站索引</a></nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-flex-item hide">
+                    <div class="subtitile text-area-inline">相關的 Tiffany 網站</div>
+                    <div class="flex hide">
+                        <div class="flex-item hide">
+                            <nav class="nav-item"><a href="#!" class="nav-link">Tiffany & Co. 基金會</a></nav>
+                            <nav class="nav-item"><a href="#!" class="nav-link">Tiffany 工作機會</a></nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text">© T&CO. 2020 年</div>
+        </footer>
+        <!-- end footer -->
+
+        <!-- vendor -->
+        <script src="./vendor/jquery/jquery.js"></script>
+        <script src="./vendor/jquery/jquery.mousewheel.min.js"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./vendor/slick/slick.min.js"></script>
+
+        <!-- js -->
+        <script>
+            $(document).ready(function () {
+
+                $(window).on('mousewheel', function (event) {
+                    if (event.deltaY <= -1) {
+                        $('.navbar').removeClass('animate__slideInDown')
+                        $('.navbar').addClass('animate__slideOutUp')
+                    } else {
+                        $('.navbar').removeClass('animate__slideOutUp')
+                        $('.navbar').addClass('animate__slideInDown')
+                    }
+                });
+
+
+                $(window).scroll(function () {
+                    scrolledpx = $(window).scrollTop();
+                    if (scrolledpx >= 200) {
+                        $('.navbar').addClass('active');
+                    }
+                    else {
+                        $('.navbar').removeClass('active');
+                    }
+                })
+
+                $('.carousel-image').slick({
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    arrows: true,
+                    draggable: false,
+                    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+                    nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
+                    asNavFor: '.carousel-text',
+                    responsive: [
+                        {
+                            breakpoint: 991,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 3,
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                            }
+                        },
+                        {
+                            breakpoint: 450,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+                });
+                $('.carousel-text').slick({
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    asNavFor: '.carousel-image',
+                    arrows: false,
+                    draggable: false,
+                    responsive: [
+                        {
+                            breakpoint: 991,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 3,
+                            }
+                        },
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                            }
+                        },
+                        {
+                            breakpoint: 450,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+                });
+
+                $('.carousel-image-T').slick({
+                    infinite: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    arrows: true,
+                    draggable: false,
+                    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
+                    nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
+                    asNavFor: '.carousel-text-T',
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+                });
+                $('.carousel-text-T').slick({
+                    infinite: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    asNavFor: '.carousel-image-T',
+                    arrows: false,
+                    draggable: false,
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }
+                    ]
+                });
+
+                $('#nav-1').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-1, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-1, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('#nav-2').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-2, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-2, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('#nav-3').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-3, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-3, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('#nav-4').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-4, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-4, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('#nav-5').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-5, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-5, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('#nav-6').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-6, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-6, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('#nav-7').mouseenter(function () {
+                    $('.sub-nav').addClass('dropdown')
+                    $('.nav-7, .dropdown-bg').removeClass('dropdown')
+                })
+                $('.dropdown-area').mouseleave(function () {
+                    $('.nav-7, .dropdown-bg').addClass('dropdown')
+                })
+
+                $('.icon').click(function () {
+                    $(this).toggleClass('click')
+                })
+
+
+                $('.navbar-icon').mouseenter(function () {
+                    $(this).children('.icon').addClass('animate__animated')
+                    $(this).children('.icon').addClass('animate__rubberBand')
+                })
+                $('.navbar-icon').mouseleave(function () {
+                    $(this).children('.icon').removeClass('animate__animated')
+                    $(this).children('.icon').removeClass('animate__rubberBand')
+                })
+
+            });
+
+
+        </script>
+
+        <script>
+            // document.getElementById("navv").addEventListener("wheel", myFunction);
+
+            // function myFunction() {
+            //     $(this).toggleClass('dropdown');}
+        </script>
+    </div>
+
+</body>
+
 </html>
