@@ -61,6 +61,7 @@ $(document).ready(function () {
         slidesToScroll: 4,
         arrows: true,
         draggable: false,
+        swipe: false,
         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
         asNavFor: '.carousel-text',
@@ -95,6 +96,7 @@ $(document).ready(function () {
         asNavFor: '.carousel-image',
         arrows: false,
         draggable: false,
+        swipe: false,
         responsive: [
             {
                 breakpoint: 991,
@@ -126,6 +128,7 @@ $(document).ready(function () {
         slidesToScroll: 3,
         arrows: true,
         draggable: false,
+        swipe: false,
         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
         asNavFor: '.carousel-text-T',
@@ -153,6 +156,7 @@ $(document).ready(function () {
         asNavFor: '.carousel-image-T',
         arrows: false,
         draggable: false,
+        swipe: false,
         responsive: [
             {
                 breakpoint: 768,
