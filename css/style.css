@@ -756,9 +756,27 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+    .hero .polygon.polygon-first{
+        background-size: auto 140%;
+        background-position: right bottom;
+    }
+}
+
 @media (max-width: 576px) {
     .hero .polygon {
         height: 75vw;
+    }
+    .hero .polygon.polygon-first{
+        background-size: auto 120%;
+        background-position: right bottom;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero .polygon.polygon-first{
+        background-size: auto 125%;
+        background-position: right bottom;
     }
 }
 
