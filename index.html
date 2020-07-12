@@ -22,6 +22,9 @@
         <!-- start header -->
         <header class="header">
             <div class="navbar animate__animated animate__slideInDown">
+                <a href="#!" class="back-arrow-area dropdown">
+                    <div class="back-arrow"></div>
+                </a>
                 <a href="#!" class="nav-toggle mob-show">
                     <span></span>
                     <span></span>
@@ -41,11 +44,11 @@
                     </div>
                     <div class="navbar-icon-right">
                         <div class="navbar-icon">
-                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-member.svg)"></a>
-                            <a href="#!" class="text">我的帳戶</a>
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-shopping.svg)"></a>
                         </div>
                         <div class="navbar-icon">
-                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-shopping.svg)"></a>
+                            <a href="#!" class="icon" style="background-image: url(media/icons/icon-member.svg)"></a>
+                            <a href="#!" class="text">我的帳戶</a>
                         </div>
                     </div>
                 </div>
@@ -55,13 +58,13 @@
 
                 <div class="dropdown-area mob-hide">
                     <div class="main-nav">
-                        <nav class="nav-item"><a href="#!" id="nav-1" class="nav-link">珠寶</a></nav>
-                        <nav class="nav-item"><a href="#!" id="nav-2" class="nav-link">愛和訂婚</a></nav>
-                        <nav class="nav-item"><a href="#!" id="nav-3" class="nav-link">腕錶</a></nav>
-                        <nav class="nav-item"><a href="#!" id="nav-4" class="nav-link">家居用品與配飾</a></nav>
-                        <nav class="nav-item"><a href="#!" id="nav-5" class="nav-link">香氛</a></nav>
-                        <nav class="nav-item"><a href="#!" id="nav-6" class="nav-link">男士</a></nav>
-                        <nav class="nav-item"><a href="#!" id="nav-7" class="nav-link">禮品</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-1" class="nav-link mob-nav">珠寶</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-2" class="nav-link mob-nav">愛和訂婚</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-3" class="nav-link mob-nav">腕錶</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-4" class="nav-link mob-nav">家居用品與配飾</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-5" class="nav-link mob-nav">香氛</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-6" class="nav-link mob-nav">男士</a></nav>
+                        <nav class="nav-item"><a href="#!" id="nav-7" class="nav-link mob-nav">禮品</a></nav>
                     </div>
                     <div class="sub-navbar">
                         <div class="sub-nav nav-1 dropdown">
@@ -98,7 +101,7 @@
                             </div>
                         </div>
                         <div class="sub-nav nav-2 dropdown">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mob-hide">
                                 <div class="sub-nav-image"
                                     style=" background-image: url(media/images/brilliant\ diamonds_flyoutasset.jpeg)">
                                 </div>
@@ -120,7 +123,7 @@
                             </div>
                         </div>
                         <div class="sub-nav nav-3 dropdown">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mob-hide">
                                 <div class="sub-nav-image"
                                     style=" background-image: url(media/images/TWatchLimited_1168x608_NavFlyout_Desktop.jpeg)">
                                 </div>
@@ -138,7 +141,7 @@
                             </div>
                         </div>
                         <div class="sub-nav nav-4 dropdown">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mob-hide">
                                 <div class="sub-nav-image"
                                     style=" background-image: url(media/images/HA_NavFlyout_2Column_584x304.jpeg)">
                                 </div>
@@ -159,7 +162,7 @@
                             </div>
                         </div>
                         <div class="sub-nav nav-5 dropdown">
-                            <div class="col-md-9">
+                            <div class="col-md-9 mob-hide">
                                 <div class="sub-nav-image"
                                     style=" background-image: url(media/images/Fragrance_NavFlyout_3Column_1760x608_V2.jpeg)">
                                 </div>
@@ -172,7 +175,7 @@
                             </div>
                         </div>
                         <div class="sub-nav nav-6 dropdown">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mob-hide">
                                 <div class="sub-nav-image"
                                     style=" background-image: url(media/images/Mens_NavFlyout_2Column_584x304.jpeg)">
                                 </div>
@@ -193,7 +196,7 @@
                             </div>
                         </div>
                         <div class="sub-nav nav-7 dropdown">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mob-hide">
                                 <div class="sub-nav-image"
                                     style=" background-image: url(media/images/FathersDay_Flyout_Desktop.jpeg)"></div>
                             </div>
@@ -216,7 +219,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="dropdown-bg dropdown"></div>
+                <div class="dropdown-bg dropdown mob-hide"></div>
+                <div class="dropdown-bg mob-dropdown"></div>
             </div>
         </header>
         <!-- end header -->
@@ -228,7 +232,8 @@
             <div class="container">
                 <div class="section text-area">
                     <h1 class="big-title">隆重推出 Tiffany T1</h1>
-                    <h3 class="subtitle">Tiffany T1 將 Tiffany T 系列大膽前衛地重新塑造，<br>象徵Tiffany及個人與自身的連繫</h3>
+                    <h3 class="subtitle">Tiffany T1 將 Tiffany T 系列大膽前衛地<br class="mob-sm-show">重新塑造，<br
+                            class="mob-sm-hide">象徵Tiffany及個人與自身的連繫</h3>
                 </div>
             </div>
             <div class="polygon" style="background-image: url(media/images/T1_ContentPg_Craftmanship.jpg)"></div>
@@ -240,8 +245,9 @@
             <div class="container">
                 <div class="text-area text-center section">
                     <div class="text-area-inline">
-                        <h3 class="subtitle">「寶石與寶石之間互相嵌套，呈現出蜂巢圖案。
-                            <br>這樣可減少金屬的數量而用上較大顆的鑽石，從而展現更璀璨光芒。」
+                        <h3 class="subtitle">「寶石與寶石之間互相嵌套，呈現出<br class="mob-sm-show">蜂巢圖案。
+                            <br class="mob-sm-hide">這樣可減少<br class="mob-sm-show">金屬的數量而用上較大顆的鑽石，<br
+                                style="mob-show">從而展現更璀璨光芒。」
                         </h3>
                         <p class="text">—Reed Krakoff，藝術總監</p>
                     </div>
@@ -291,7 +297,7 @@
                 <div class="text-area text-center">
                     <div class="text-area-inline">
                         <div class="title">大膽前衛的藝術</div>
-                        <div class="text">全新的 Tiffany T1 設計將我們標誌性的「T」字圖形<br class="mob-show">透過與眾不同的斜邊重新塑造，
+                        <div class="text">全新的 Tiffany T1 設計將我們標誌性的<br class="mob-show">「T」字圖形透過與眾不同的斜邊重新塑造，
                             <br>以 18K 玫瑰金及鑽石製成，綻放極致光華。</div>
                     </div>
                 </div>
@@ -440,7 +446,7 @@
             <div class="container section">
                 <div class="text-area text-center">
                     <div class="text-area-inline">
-                        <h3 class="subtitle">「目標是將『T』字圖形以醒目大膽的符號重新演繹，<br class="mob-show">令人感到非常時尚。」</h3>
+                        <h3 class="subtitle">「目標是將『T』字圖形以醒目大膽的符號<br class="mob-show">重新演繹，令人感到非常時尚。」</h3>
                         <p class="text">—Reed Krakoff，藝術總監</p>
                     </div>
                 </div>
@@ -470,7 +476,7 @@
                 <div class="text-area text-center">
                     <div class="text-area-inline">
                         <div class="subtitle">標誌性的 Tiffany「T」字圖形採用了
-                            <br>以18K 玫瑰金形成的斜邊設計，玩味比例, 引人注目。</div>
+                            <br>以18K 玫瑰金形成的斜邊設計，<br class="mob-show">玩味比例, 引人注目。</div>
                     </div>
                 </div>
             </div>
@@ -570,15 +576,41 @@
                         <div class="navbar-icon">
                             <a href="#!" class="icon"
                                 style="background-image: url(media/icons/footer-icon-globe.svg)"></a>
-                            <a href="#!" class="text">語言切換</a>
+                            <a href="#!" class="text mob-language">語言切換</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container dropdown">
+                <div class="lang">
+                    <div class="lang-col">
+                        <div class="subtitle">Americas</div>
+                        <a href="#!" class="text">United States</a>
+                        <a href="#!" class="text">Canada (English)</a>
+                        <a href="#!" class="text">Mexico</a>
+                        <a href="#!" class="text">Brazil</a>
+                    </div>
+                    <div class="lang-col">
+                        <div class="subtitle">Europe</div>
+                        <a href="#!" class="text">United Kingdom</a>
+                        <a href="#!" class="text">France</a>
+                        <a href="#!" class="text">Deutschland</a>
+                        <a href="#!" class="text">Italia</a>
+                        <a href="#!" class="text">España</a>
+                    </div>
+                    <div class="lang-col">
+                        <div class="subtitle">Asia/Pacific</div>
+                        <a href="#!" class="text">日本</a>
+                        <a href="#!" class="text">中國大陸</a>
+                        <a href="#!" class="text">台灣</a>
+                        <a href="#!" class="text">한국</a>
                     </div>
                 </div>
             </div>
             <div class="section footer-flex">
                 <div class="footer-flex-item hide">
-                    <div class="subtitile text-area-inline">客戶服務</div>
-                    <div class="flex hide">
+                    <div class="subtitle text-area-inline">客戶服務</div>
+                    <div class="flex hide fold animate__animated">
                         <div class="flex-item hide">
                             <nav class="nav-item"><a href="#!" class="nav-link">聯絡我們</a></nav>
                             <nav class="nav-item"><a href="#!" class="nav-link">常見問題解答</a></nav>
@@ -588,10 +620,13 @@
                             <nav class="nav-item"><a href="#!" class="nav-link">產品目錄</a></nav>
                         </div>
                     </div>
+                    <a href="#!" class="arrow-area">
+                        <span class="down-arrow mob-show"></span>
+                    </a>
                 </div>
                 <div class="footer-flex-item hide">
-                    <div class="subtitile text-area-inline">我們公司</div>
-                    <div class="flex hide">
+                    <div class="subtitle text-area-inline">我們公司</div>
+                    <div class="flex hide fold animate__animated">
                         <div class="flex-item hide">
                             <nav class="nav-item"><a href="#!" class="nav-link">Tiffany 的世界</a></nav>
                             <nav class="nav-item"><a href="#!" class="nav-link">可持續發展</a></nav>
@@ -602,15 +637,21 @@
                             <nav class="nav-item"><a href="#!" class="nav-link">網站索引</a></nav>
                         </div>
                     </div>
+                    <a href="#!" class="arrow-area">
+                        <span class="down-arrow mob-show"></span>
+                    </a>
                 </div>
                 <div class="footer-flex-item hide">
-                    <div class="subtitile text-area-inline">相關的 Tiffany 網站</div>
-                    <div class="flex hide">
+                    <div class="subtitle text-area-inline">相關的 Tiffany 網站</div>
+                    <div class="flex hide fold animate__animated">
                         <div class="flex-item hide">
                             <nav class="nav-item"><a href="#!" class="nav-link">Tiffany & Co. 基金會</a></nav>
                             <nav class="nav-item"><a href="#!" class="nav-link">Tiffany 工作機會</a></nav>
                         </div>
                     </div>
+                    <a href="#!" class="arrow-area">
+                        <span class="down-arrow up mob-show"></span>
+                    </a>
                 </div>
             </div>
             <div class="copyright text">© T&CO. 2020 年</div>
@@ -625,220 +666,7 @@
         <script src="./vendor/slick/slick.min.js"></script>
 
         <!-- js -->
-        <script>
-            $(document).ready(function () {
-
-                $(window).on('mousewheel', function (event) {
-                    if (event.deltaY <= -1) {
-                        $('.navbar').removeClass('animate__slideInDown')
-                        $('.navbar').addClass('animate__slideOutUp')
-                    } else {
-                        $('.navbar').removeClass('animate__slideOutUp')
-                        $('.navbar').addClass('animate__slideInDown')
-                    }
-                });
-
-
-                $(window).scroll(function () {
-                    scrolledpx = $(window).scrollTop();
-                    if (scrolledpx >= 200) {
-                        $('.navbar').addClass('active');
-                    }
-                    else {
-                        $('.navbar').removeClass('active');
-                    }
-                })
-
-                $('.carousel-image').slick({
-                    infinite: false,
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                    arrows: true,
-                    draggable: false,
-                    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
-                    nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
-                    asNavFor: '.carousel-text',
-                    responsive: [
-                        {
-                            breakpoint: 991,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 3,
-                            }
-                        },
-                        {
-                            breakpoint: 767,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2,
-                            }
-                        },
-                        {
-                            breakpoint: 450,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                            }
-                        }
-                    ]
-                });
-                $('.carousel-text').slick({
-                    infinite: false,
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                    asNavFor: '.carousel-image',
-                    arrows: false,
-                    draggable: false,
-                    responsive: [
-                        {
-                            breakpoint: 991,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 3,
-                            }
-                        },
-                        {
-                            breakpoint: 767,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2,
-                            }
-                        },
-                        {
-                            breakpoint: 450,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                            }
-                        }
-                    ]
-                });
-
-                $('.carousel-image-T').slick({
-                    infinite: false,
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    arrows: true,
-                    draggable: false,
-                    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>',
-                    nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>',
-                    asNavFor: '.carousel-text-T',
-                    responsive: [
-                        {
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2,
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                            }
-                        }
-                    ]
-                });
-                $('.carousel-text-T').slick({
-                    infinite: false,
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    asNavFor: '.carousel-image-T',
-                    arrows: false,
-                    draggable: false,
-                    responsive: [
-                        {
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2,
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                            }
-                        }
-                    ]
-                });
-
-                $('#nav-1').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-1, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-1, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('#nav-2').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-2, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-2, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('#nav-3').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-3, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-3, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('#nav-4').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-4, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-4, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('#nav-5').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-5, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-5, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('#nav-6').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-6, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-6, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('#nav-7').mouseenter(function () {
-                    $('.sub-nav').addClass('dropdown')
-                    $('.nav-7, .dropdown-bg').removeClass('dropdown')
-                })
-                $('.dropdown-area').mouseleave(function () {
-                    $('.nav-7, .dropdown-bg').addClass('dropdown')
-                })
-
-                $('.icon').click(function () {
-                    $(this).toggleClass('click')
-                })
-
-
-                $('.navbar-icon').mouseenter(function () {
-                    $(this).children('.icon').addClass('animate__animated')
-                    $(this).children('.icon').addClass('animate__rubberBand')
-                })
-                $('.navbar-icon').mouseleave(function () {
-                    $(this).children('.icon').removeClass('animate__animated')
-                    $(this).children('.icon').removeClass('animate__rubberBand')
-                })
-
-            });
-
-
-        </script>
+        <script src="./js/index.js"></script>
 
         <script>
             // document.getElementById("navv").addEventListener("wheel", myFunction);
